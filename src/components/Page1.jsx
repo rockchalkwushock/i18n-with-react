@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
+import { withTranslate } from 'react-redux-multilingual';
 
 const styles = {
   root: {
@@ -6,11 +7,15 @@ const styles = {
   }
 };
 
-const Page1 = () => (
+const Page1 = ({ translate }) => (
   <div style={styles.root}>
-    <h1>You are on Page 1</h1>
-    <p>I just made this thing work!</p>
+    <h1>{translate('page1:header')}</h1>
+    <p>{translate('page1:text')}</p>
   </div>
 );
 
-export default Page1;
+Page1.propTypes = {
+  translate: PropTypes.func
+};
+
+export default withTranslate(Page1);

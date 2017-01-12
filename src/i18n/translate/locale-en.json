@@ -1,3 +1,16 @@
 {
-  "locale": "en-US"
+  "locale": "en-US",
+  "messages": {
+    "navbar:header": "Multilingual React + Redux",
+    "navbar:page1": "Page 1",
+    "navbar:page2": "Page 2",
+    "header:main": "Hello World!",
+    "header:second": "This is a React + Redux Application.",
+    "header:third": "It will have multilingual views built into it!",
+    "page1:header": "You are on Page 1.",
+    "page1:text": "I just made this thing work!",
+    "page2:header": "You are on Page 2.",
+    "page2:text1": "Hello World!",
+    "page2:text2": "How are you?"
+  }
 }
