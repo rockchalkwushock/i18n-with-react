@@ -1,0 +1,8 @@
+html,
+body,
+#root,
+.application
+.content {
+  height: 100vh;
+  margin: 0, auto;
+}
